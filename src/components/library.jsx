@@ -40,7 +40,7 @@ export default function LibraryComponent() {
   ]
 
   return (
-    <div className='p-4 w-full'>
+    <div className='md:p-4 w-full'>
       <div className='border rounded p-4'>
 
         <div className='flex items-center justify-between mb-6'>

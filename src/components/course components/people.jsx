@@ -60,8 +60,8 @@ export default function People({ user_heading }) {
         },
     ];
     return (
-        <div className='px-5'>
-            <div className='flex flex-wrap justify-between items-center py-5 gap-y-2'>
+        <div className='md:p-4'>
+            <div className='flex flex-wrap justify-between items-center pb-4 gap-y-2'>
                 <div className='flex gap-2'>
                     <img src={user} alt="" />
                 <h2 className='text-[18px] md:text-[28px] font-medium text-[#475467]'>{user_heading}</h2>

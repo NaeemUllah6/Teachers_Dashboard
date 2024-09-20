@@ -74,8 +74,8 @@ export default function Grades({ gradesimg,gradesheading }) {
         },
     ];
     return (
-        <div className='px-5 overflow-x-hidden'>
-            <div className='flex flex-wrap justify-between items-center py-5 gap-2'>
+        <div className='md:p-4 overflow-x-hidden'>
+            <div className='flex flex-wrap justify-between items-center pb-4 gap-2'>
                 <div className='flex gap-2'>
                 <img src={gradesimg} alt="" />
                 <h2 className='text-[18px] md:text-[28px] font-medium text-[#475467]'>{gradesheading}</h2>

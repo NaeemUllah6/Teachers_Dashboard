@@ -76,7 +76,7 @@ export default function Dashboard() {
   });
 
   return (
-    <div className='p-4'>
+    <div className='md:p-4'>
       <div className='border rounded-lg p-4'>
 
 

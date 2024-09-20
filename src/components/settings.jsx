@@ -42,7 +42,7 @@ export default function Help() {
                             <div className='justify-center  mx-auto'>
                                 <img className='mx-auto' src={helpimg} alt="" />
                             </div>
-                            <div className='text-center'>
+                            <div className='text-center flex flex-col justify-center md:justify-start'>
                                 <p className='text-[20px] font-medium'>John Doe <span className='bg-[#ECFDF3] text-[#027A48] text-[14px] px-3 rounded-full'>Active</span></p>
                                 <div className='flex items-center flex-wrap justify-center mx-auto gap-3'><p className='font-medium py-1 text-[#344054]'>Teacher</p><p><span className='font-medium text-[#344054]'>Joined Date :</span>17/05/24</p></div>
                             </div>

@@ -29,7 +29,7 @@ export default function Help() {
     },
   ]
   return (
-    <div className='p-4'>
+    <div className='md:p-4'>
       <div className='  border rounded-xl'>
         <div className='p-4'>
           <div className='flex items-center justify-center flex-wrap md:justify-between'>
