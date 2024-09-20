@@ -83,13 +83,13 @@ export default function LibraryComponent() {
         <div className='md:p-4 w-full'>
             <div className='border rounded p-4'>
 
-                <div className='flex items-center justify-between mb-6'>
+                <div className='flex items-center flex-wrap gap-3 justify-between mb-6'>
                     <div className='flex items-center gap-3'>
                         <img className='w-[24px] h-[24px]' src={Course} alt="img" />
                         <h2 className='font-semibold calibri text-[#344054] text-[24px]'>Courses</h2>
                     </div>
                     <div>
-                        <Mybutton className="bg-[#0348B7] text-white  rounded-lg text-[16px]" text="Add New Collection" />
+                        <Mybutton className="bg-[#0348B7] text-white  rounded-lg text-[12px] md:text-[16px]" text="Add New Collection" />
                     </div>
                 </div>
 
